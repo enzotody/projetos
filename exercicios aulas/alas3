@@ -1,0 +1,13 @@
+numero =input("coloque um numeros")
+if 0 < numero and numero <=25:
+    print('0 a 25')
+elif 25 < numero and numero <=50:
+    print('25 a 50')
+
+elif 50 < numero and numero <=75:
+    print('50 a 75')
+
+elif 75 < numero and numero <=100:
+    print('75 a 100')
+else:
+    print("fora do intervalo")

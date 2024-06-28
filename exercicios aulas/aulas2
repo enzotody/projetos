@@ -1,0 +1,9 @@
+def preparandopizza(*ingredientes,tamanho="medio"):
+          print("\n preparando pizza", tamanho,"com os seguintes ingredientes: ")  
+          for ingrediente in ingredientes:
+           print("-",ingrediente)
+
+preparandopizza("catupiri","frango","alho" ,tamanho="grande")
+preparandopizza("brocolis","cebola")
+preparandopizza("calabresa","mutsarela")
+preparandopizza()

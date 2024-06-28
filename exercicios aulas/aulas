@@ -1,0 +1,14 @@
+#else para numeros irregulares
+nota =11
+
+if nota >=7 and nota <=10 :
+  print("Aprovado!") 
+    
+elif nota >=4 and nota <=6 :
+    print("Recuperaçao")
+
+elif nota >=0 and nota <=3 :
+    print("Reprovado") 
+    
+else:
+    print("numero Inregular")
